@@ -21,3 +21,7 @@ x=3
 y=2
 x -= y
 print(x)
+
+# 常用的运算符优先级: 算术 > 比较 > 逻辑 > 赋值
+result = 3-4 >=0 and 4*(6-2)>15
+print(result)
