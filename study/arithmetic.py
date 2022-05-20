@@ -10,3 +10,14 @@ print(b == a)
 print(c is a)
 print(c == a)
 
+# x+=y 等同于 x=x+y
+x=3
+y=2
+x += y
+print(x)
+
+# x-=y 等同于 x=x-y
+x=3
+y=2
+x -= y
+print(x)
